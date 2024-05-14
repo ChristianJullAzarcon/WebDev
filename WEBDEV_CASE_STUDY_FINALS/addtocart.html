@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleCraft Beauty Supply</title>
+    <link rel="stylesheet" href="addtocart.css">
+</head>
+<body>
+    
+    <section id="header">
+        <a href="Hair_and_Nail_Tools.html"><img width="60PX" height="60PX" src="images/LOGO.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="Hair_and_Nail_Tools.html">Home</a></li>
+                <li><a class="active" href="#">Shop</a></li>
+                <li><a href="aboutUs.html">About</a></li>
+                <li><a href="LoginPage.html">Log out</a></li>
+                <li><a href="#mycart" >Cart</a></li>
+                <li class="mobile-menu"><a href="javascript:void(0);" onclick="toggleMenu()">Menu</a></li>
+                </ul>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4 >Hair and Nail tools <span style="color: rgb(255, 25, 25);">Below</span></h4>
+        <h2>Select your items</h2>
+    </section>
+    
+  
+    <div id="mycart" class="container">
+        <div id="root"></div>
+        <div class="sidebar visible">
+            <div class="head">My Cart</div>
+            <div id="cartItem">Your Cart is Empty</div>
+            <div class="foot">
+              <h3>Total</h3>
+              <h2 id="total">₱</h2>
+            </div>
+            <div class="checkout">
+                <button onclick="checkout()">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="H&N_Script.js"></script>
+</body>
+<footer class="footerpart">
+    <div class="footer-content">
+        <div class="social-media">
+            <h3>Connect With Us:</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <h3>Contact Information:</h3>
+            <p>Phone: 09994107569</p>
+            <p>Email: <a href="mailto:StyleCraftBeautySupply@gmail.com">StyleCraftBeautySupply@gmail.com</a></p>
+        </div>
+        <div class="explore-products">
+            <h3>Explore Our Products:</h3>
+            <ul>
+                <li>Hair Tools:</li>
+                <li>Nail Tools:</li>
+            </ul>
+        </div>
+        <div class="about-us">
+            <h3>About Us:</h3>
+            <p>Learn more about our company and mission.</p>
+        </div>
+    </div>
+        <p style="text-align: center;">&copy; <span id="year"></span> H&N Corp. All rights reserved.</p>
+    </div>
+</footer>
+</html>
